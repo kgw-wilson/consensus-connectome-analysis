@@ -1,6 +1,6 @@
 # Consensus Connectome Analysis
 
-This repository provides a Python-based workflow for analyzing and visualizing a publicly available consensus brain connectome dataset from the PIT Bioinformatics group ([site](https://pitgroup.org/connectome/) and [GitHub repo](https://github.com/bricaud/brainviz2)). While the original visualizations from the PIT group use 3d.js, this project leverages Python tools to enable interactive connectome visualizations and including graph-theoretic metrics.
+This repository provides a Python-based workflow for analyzing and visualizing a publicly available consensus brain connectome dataset from the PIT Bioinformatics group ([site](https://pitgroup.org/connectome/) and [GitHub repo](https://github.com/bricaud/brainviz2)). While the original visualizations from the PIT group use 3d.js, this project leverages Python tools to enable interactive connectome visualizations and graph-theoretic metrics.
 
 The workflow demonstrates how to:
 
