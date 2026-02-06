@@ -1,22 +1,22 @@
 # Consensus Connectome Analysis
 
-This repository provides a Python-based workflow for analyzing and visualizing a publicly available consensus brain connectome dataset from the PIT Bioinformatics group ([site](https://pitgroup.org/connectome/) and [GitHub repo](https://github.com/bricaud/brainviz2)). While the original visualizations from the PIT group use 3d.js, this project leverages Python tools to enable interactive connectome visualizations and graph-theoretic metrics.
+This repository provides a Python-based workflow for analyzing and visualizing a publicly available consensus brain connectome dataset from the PIT Bioinformatics group ([site](https://pitgroup.org/connectome/) and [GitHub repo](https://github.com/bricaud/brainviz2)). While the original visualizations from the PIT group use 3d.js, this project leverages Python tools to enable interactive connectome visualization and graph-theoretic analysis.
 
 The workflow demonstrates how to:
 
 1. Analyze the brain connection graph using networkx and bctpy
 
-2. Create an interactive visualization of the connectome with nilearn in 3D
+2. Create an interactive 3D visualization of the connectome with Nilearn
 
 3. Provide summary statistics, graph measures, and insights on network organization
 
-Please see `graph_analysis.ipynb` and `visualization.ipynb` for more information.
+Please see `graph_analysis.ipynb` and `visualization.ipynb` for analysis and visualizations, respectively.
 
 ## Features
 
 • Weighted, undirected connectome graph creation
 
-• Calculation of basic network metrics like degree and strengh
+• Calculation of basic network metrics like degree and strength
 
 <img src="./images/degree_vs_strength.png" width="600px">  
 
@@ -50,10 +50,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Then open the Jupyter notebook files in vscode and select the Python executable from your virtual environment.
+Then open the Jupyter notebook files in VS Code and select the Python executable from your virtual environment.
 
 ## Data Sources
 
 `budapest_connectome_3.0_5_0_median.csv` - full consensus connectome data from https://github.com/bricaud/brainviz2/blob/02afc69278629d1c02d3a7b6b40964baa71d3d89/budapest_connectome_3.0_5_0_median.csv
 
-`DKT_space-MNI152NLin6_res-1x1x1.json` - The Desikan-Killiany-like visualization in the PIT repo suggests this atlas (or a similar DKT variant) corresponds to the parent regions used in the dataset. From https://github.com/neurodata/neuroparc/blob/master/atlases/label/Human/Metadata-json/DKT_space-MNI152NLin6_res-1x1x1.json
+`DKT_space-MNI152NLin6_res-1x1x1.json` - The Desikan–Killiany-style visualization in the PIT repository suggests that this atlas (or a closely related DKT variant) aligns with the parent regions used in the dataset. From https://github.com/neurodata/neuroparc/blob/master/atlases/label/Human/Metadata-json/DKT_space-MNI152NLin6_res-1x1x1.json
