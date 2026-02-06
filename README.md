@@ -16,13 +16,19 @@ Please see `graph_analysis.ipynb` and `visualization.ipynb` for more information
 
 • Weighted, undirected connectome graph creation
 
+• Calculation of basic network metrics like degree and strengh
+
+<img src="./images/degree_vs_strength.png" width="600px">  
+
 • Computation of centrality measures: degree, betweenness, closeness, and eigenvector centrality
 
 • Community detection and network organization analyses
 
 • Global efficiency, assortativity, and small-worldness calculations
 
-• 3D interactive visualizations with nilearn.view_connectome
+• 3D interactive visualizations with `nilearn.plotting.view_connectome`
+
+<img src="./images/3d_visualization.png" width="600px">  
 
 • Fully Python-based workflow (no external JavaScript dependencies or browser-based viewing)
 
