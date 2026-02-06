@@ -29,12 +29,19 @@ Please see `graph_analysis.ipynb` and `visualization.ipynb` for more information
 ## Setup
 
 ```shell
+# Create a virtual environment in the current directory
+python -m venv venv
 
-~/workspace/connectome-analysis python -m venv venv
-~/workspace/connectome-analysis source venv/bin/activate
+# Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows (PowerShell):
+# .\venv\Scripts\Activate.ps1
+# On Windows (cmd):
+# .\venv\Scripts\activate.bat
 
+# Install dependencies
 pip install -r requirements.txt
-
 ```
 
 Then open the Jupyter notebook files in vscode and select the Python executable from your virtual environment.
